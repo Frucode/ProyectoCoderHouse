@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<meta name="keywords" content="TAROT, CARTAS, ESPIRITUALIDAD, LECTURA">
+    <meta name="description" content="El sitio del tarot en Santiago de Chile">
+</head>
+<body class="contacto">
+	<header class="header">	
+	<div class="nav">
+		<nav>
+			<a href="index.html">Logo</a> 
+			<a href="productos.html">Productos</a> 
+			<a href="blog.html">Blog</a> 
+			<a href="">ITEM</a>
+		</nav>
+	</div>
+    </header>
+	<h2>Contacto</h2>
+	
+	<section class="caja" >
+		<div class="mitad2">
+		</div>
+		<div class="mitad">
+			<form method="POST" >
+				<div >
+					<label for="fullName">Nombre y Apellido</label>
+					<input type="text" placeholder="Nombre y Apellido" id="fullName" name="fullname" required>
+				</div>
+				<div>
+					<label for="Email">Email</label>
+					<input placeholder="Ejemplo@email.com" type="email" id="Email" name="email" required>
+				</div>
+				<div>
+					<label for="edad">Edad</label>
+					<input placeholder="Edad" type="number" id="edad" name="edad" max="99">
+				</div>
+				<div>
+					<label for="Tiradas">Elige tu tirada</label>
+					<select id="Tiradas" name="Tiradas" >
+						<option value="null">--Elige tu tirada--</option> 
+						<option value="Arbol de la vida">Arbol de la vida</option>
+						<option value="La decision">La decisión</option>
+						<option value="La rueda astrologica">La rueda astrológica</option>
+						<option value="Lectura de la semana">Lectura de la semana</option>
+						<option value="La estrella">La estrella</option>
+					</select>
+				</div>
+				<div>
+					<div>	
+						<label for="Consulta">Consulta</label>
+					</div>
+					<textarea id="Consulta" name="Consulta" placeholder="Guianos para guiarte" cols="30" rows="10"></textarea>
+				</div>
+				<div>
+					<label>
+						<input type="checkbox" name="spam_me" value="true">Spam me, senpai (❤ ω ❤) 
+					</label>
+				</div>
+				<button type="reset">Puff!</button>
+				<button type="submit">Enviar ✉</button>
+			</form>	
+		</div>
+	</section>
+	<hr>
+	<footer class="footer">
+		<div>
+			<a href="contacto.html">Contacto</a> 
+			<a href="faq.html">FAQ</a>
+		</div>
+		<div>
+			Desarrollado y diseñado by Me
+		</div>
+		<div>
+			<p>¡Mantente conectado!</p>
+			<input type="input" name="correo">
+			<button>enviar</button>
+		</div>				
+	</footer>
+</body>
+</html>
